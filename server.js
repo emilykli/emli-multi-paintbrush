@@ -22,6 +22,6 @@ function newConnection(socket)
     {
         socket.broadcast.emit('mouse', data);
         //io.sockets.emit('mouse', data); //sends to everyone (including self)
-        console.log(data);
+        //console.log(data);
     }
 }
